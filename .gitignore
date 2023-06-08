@@ -1,0 +1,13 @@
+# Folgende Dateien werden von Git ignoriert
+
+# Die Einstellungen der lokalen UI
+*.xojo_uistate
+
+# Den kompletten Build Ordner
+**/src/Builds -*
+
+# Den Debug Folder
+**/src/Debug*
+
+# Die vom INNO Installer erzeugte EXE
+Inno Installer/*.exe
